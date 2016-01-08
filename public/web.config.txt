@@ -18,7 +18,7 @@
     </httpProtocol>
     <rewrite>
       <rules>
-        <rule name="Laravel5" stopProcessing="true">
+        <rule name="BusTap" stopProcessing="true">
           <match url="^" ignoreCase="false" />
           <conditions logicalGrouping="MatchAll">
             <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
@@ -29,4 +29,4 @@
       </rules>
     </rewrite>
   </system.webServer>
-</configuration>  
+</configuration>
